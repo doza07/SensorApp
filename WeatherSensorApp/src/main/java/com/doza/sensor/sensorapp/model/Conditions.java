@@ -1,9 +1,7 @@
 package com.doza.sensor.sensorapp.model;
 
-import jakarta.persistence.*;
-import jakarta.validation.constraints.Max;
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotNull;
+import javax.persistence.*;
+import javax.validation.constraints.*;
 
 import java.time.LocalDateTime;
 

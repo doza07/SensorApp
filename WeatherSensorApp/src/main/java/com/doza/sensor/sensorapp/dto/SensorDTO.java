@@ -1,10 +1,10 @@
 package com.doza.sensor.sensorapp.dto;
 
-import jakarta.persistence.Column;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.Size;
-import lombok.Data;
 
+import lombok.Data;
+import javax.validation.constraints.*;
+
+@Data
 public class SensorDTO {
 
     @NotEmpty(message = "Name should not be empty")

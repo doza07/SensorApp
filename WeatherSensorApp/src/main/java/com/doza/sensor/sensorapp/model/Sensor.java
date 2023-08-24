@@ -1,7 +1,7 @@
 package com.doza.sensor.sensorapp.model;
 
-import jakarta.persistence.*;
-import jakarta.validation.constraints.*;
+import javax.persistence.*;
+import javax.validation.constraints.*;
 
 
 
